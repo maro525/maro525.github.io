@@ -40,6 +40,24 @@ li {
     line-height: 1.35em;
 }
 
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-style: .8em;
+    width: 66%;
+    margin: auto;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+    font-weight: bold;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
 ul.posts {
     margin: 20px auto 40px;
 }
