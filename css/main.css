@@ -1,0 +1,50 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    color: #000;
+    font-size: 13px;
+    margin: 0px;
+}
+
+.container {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    padding-left: 1px;
+    padding-right: 1px;
+    text-decoration: none;
+    border-bottom: 0.5px dashed #888;
+    color: #000;
+    font-weight: 400;
+}
+
+a:hover {
+    border-color: #1abc9c;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-syze: 1.5em;
+    line-height: 1.35em;
+    color: #333;
+}
+
+li {
+    font-size: 1.0em;
+    line-height: 1.35em;
+}
+
+ul.posts {
+    margin: 20px auto 40px;
+}
+
+ul.posts li {
+    list-style: none;
+}
