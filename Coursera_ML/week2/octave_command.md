@@ -18,7 +18,7 @@ A(:,2) = [10; 11; 12] -> A = [1 10, 3 11, 5 12];
 A = [A, [100;101; 102]] -> A = [1 10 100; 3 11 101; 5 12 102]  
 A(:) = 1; 3; 5; 10; 11; 12; 100; 101; 102;% put all elements of A into a single vector  
 
-------------
+---
 
 A = [1 2; 3 4; 5 6]  
 B = [11 12; 13 14; 15 16]  
@@ -42,6 +42,9 @@ floor(a) : 小数点以下切り捨て
 ceil(a) : 小数点切り上げ  
 rand(3) : 3 * 3 の random matrix  
 max(rand(3), rand(3)) : ２つのうちでかい方を返す  
+
+---
+
 max(A,[],1) : 各列の最大を返す  
 max(A,[],2) : 各行の最大を返す  
 max(A) : 各行の最大を返す  
@@ -52,7 +55,7 @@ sum(A,2) : sum up each row of A
 flipud(A) : flip the matrix upside down  
 pinv(A) : give inverse of A (逆行列)
 
-----------------
+---
 
 load featuresX.dat : ファイル読み込み  
 load ('featuresX.dat') : ファイル読み込み
@@ -65,6 +68,8 @@ clear ◯◯ : 変数◯◯を削除
 
 save ◯◯ ☓☓ : ◯◯(ファイル)に☓☓(データ)を保存する  
 save ◯◯.txt ☓☓ -ascii : save as text(ASCII)
+
+---
 
 ## plotting data
 
@@ -79,6 +84,9 @@ legend('@@', '@@')
 title('@@')  
 print -dpng '@@.png' : save the plot to png  
 close : make figure go away  
+
+---
+
 figure(1): plot(t,y1);  
 figure(2); plot(t,y2); : display 2 windows  
 subplot(1,2,1) : divides plot a 1*2 gid, access first element  
@@ -87,8 +95,12 @@ imagesc(A) : grid colors
 colorbar : show color bar  
 colormap gray : change the color map to grayscale  
 
+---
+
 a=1, b=2, c=3 : showing the result  
 a=1; b=2; c=3 : not showing the result  
+
+---
 
 ## control statemants
 
@@ -102,6 +114,8 @@ for i=indices,
   disp(i);  
 end;
 -> 1 2 3 4 ...
+
+---
 
 while i <= 5,  
   v(i) = 100;  
@@ -119,6 +133,8 @@ while true,
 end;  
 -> 999 999 999 999 999 64 ...
 
+---
+
 v(1) = 2;  
 if v(1) == 1,  
 \ disp('The valus is one');  
@@ -129,7 +145,7 @@ else
 end;  
 -> The value is two
 
-------
+---
 
 % defined in .m file  
 function y = squareThisNumber(x)   
@@ -145,6 +161,8 @@ y2 = x^3;
 [a, b] = squareAndCubeThisNumber(5);
 a -> 25  
 b -> 125
+
+---
 
 %cost function  
 function J = costFunctionJ(X, y, theta)
