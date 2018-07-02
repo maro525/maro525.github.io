@@ -6,10 +6,13 @@ body {
     margin: 0px;
 }
 
-.container {
-    width: 66%;
+.center {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+}
+
+.container {
     margin-top: 50px;
 }
 
@@ -30,14 +33,14 @@ a:hover {
     border-color: #1abc9c;
 }
 
-h1 {
-    font-size: 3em;
-}
-
 p {
     font-size: 1.5em;
     line-height: 1.35em;
     color: #333;
+}
+
+ul.posts li { 
+    list-style: none;
 }
 
 li {
@@ -62,12 +65,4 @@ footer ul {
 footer ul li {
     display: inline;
     margin-right: 20px;
-}
-
-ul.posts {
-    margin: 20px auto 40px;
-}
-
-ul.posts li {
-    list-style: none;
 }
