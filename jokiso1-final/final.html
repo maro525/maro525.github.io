@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>最終課題</title>
+        <meta charset="UTF-8">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="final.css">
+        <script src="final.js"></script>
+    </head>
+    <body>
+        <!----------------------------- 
+        --------最初の画面 -----------
+        ------------------------------->
+        
+        <div class="one">
+            
+            <!------------ ヘッダー  ------------------->
+            <div class="page-header" role="banner">
+                <h1>逃げまわる単位を獲得しようゲーム！</h1>
+            </div>
+            
+            <!------------ メイン  ------------------->
+            <div id="typo">
+                <div class="inner">
+                    <span>
+                        <img src="images/S1.jpg" height="500" class="slide" id="slide1" alt="">
+                        <img src="images/S2.jpg" height="500" class="slide" id="slide2" alt="">
+                        <img src="images/S3.jpg" height="500" class="slide" id="slide3" alt="">
+                        <img src="images/S4.jpg" height="500" class="slide" id="slide4" alt="">
+                        <img src="images/S5.jpg" height="500" class="slide" id="slide5" alt="">
+                        <img src="images/S6.jpg" height="500" class="slide" id="slide6" alt="">
+                        <img src="images/S7.jpg" height="500" class="slide" id="slide7" alt="">
+                        <img src="images/S8.jpg" height="500" class="slide" id="slide8" alt="">
+                        <img src="images/S9.jpg" height="500" class="slide" id="slide9" alt="">
+                        <img src="images/S10.jpg" height="500" class="slide" id="slide10" alt="">
+                    </span>
+                    <a href="#" class="go" id="skip">Play!</a>
+                    <a href="#" class="next" id="tuto">遊び方</a>
+                    <a href="#" class="next" id="nextone">次へ</a>
+                    <a href="#" class="go" id="start">Go！</a>
+                </div>
+            </div>
+            
+            
+            <!------------ フッター  ------------------->
+            <div class="page-footer">
+                <p>制作: 藤波秀麿　石田理紗子</p>
+            </div>
+        </div>
+        
+        <!----------------------------- 
+        --------ゲームの画面 -----------
+        ------------------------------->
+        <div class="game">
+            
+            
+            <!------------ フィールド  ------------------->
+            <div class="feild"></div>
+            
+            <!------------ ボタン  ---------------------->
+            <div class="btn">
+                <input type="button" value="隠す！" id="hide">
+                <input type="button" value="スタート！" id="start">
+                <input type="button" value="もう一回！！！" id="reset">
+            </div>
+            
+            <!------------ スコア  ----------------------->
+            
+            <!----　獲得した単位  ---->
+            <div class="score">
+                <div class="moji">
+                    <p>獲得した単位</p>
+                </div>
+                <div class="number">
+                    <p id="num">0</p>
+                </div>
+            </div>
+            <!----  残り教科数  ---->
+            <div class="score">
+                <div class="moji">
+                    <p>残り教科数</p>
+                </div>
+                <div class="number">
+                    <p id="sc">10</p>
+                </div>
+            </div>
+            
+            <!--------------- ボックス  ------------------>
+            <div class="box" id="ok">
+                <div class="afolder">
+                    <span class="pan" id="a1"><img src=images/A.png alt=""></span>
+                    <span class="pan" id="a2"><img src=images/A.png alt=""></span>
+                    <span class="pan" id="a3"><img src=images/A.png alt=""></span>
+                </div>
+                <div class="bfolder">
+                    <span class="pan" id="b1"><img src=images/B.png alt=""></span>
+                    <span class="pan" id="b2"><img src=images/B.png alt=""></span>
+                    <span class="pan" id="b3"><img src=images/B.png alt=""></span>
+                    <span class="pan" id="b4"><img src=images/B.png alt=""></span>
+                </div>
+                <div class="cfolder">
+                    <span class="pan" id="c1"><img src=images/c.jpeg alt=""></span>
+                    <span class="pan" id="c2"><img src=images/c.jpeg alt=""></span>
+                    <span class="pan" id="c3"><img src=images/c.jpeg alt=""></span>
+                </div>
+            </div>
+            <div class="box" id="ng">
+                <span class="pan" id="pan1"><img src=images/tanipan.png alt=""></span>
+                <span class="pan" id="pan2"><img src=images/tanipan.png alt=""></span>
+                <span class="pan" id="pan3"><img src=images/tanipan.png alt=""></span>
+                <span class="pan" id="pan4"><img src=images/tanipan.png alt=""></span>
+                <span class="pan" id="pan5"><img src=images/tanipan.png alt=""></span>
+            </div>
+        </div>
+        
+    </body>
+</html>

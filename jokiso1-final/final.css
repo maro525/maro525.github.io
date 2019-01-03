@@ -1,0 +1,214 @@
+body {
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/**********************************
+*************最初の画面*************
+**********************************/
+
+
+/***********ヘッダー********/
+.page-header {
+    background-color: #fff;
+}
+
+.page-header h1 {
+    width: 976px;
+    height: 80px;
+    margin: 0 auto;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 80px;
+    letter-spacing: 0.1em;
+}
+
+/***********メイン********/
+#typo {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #3498db;
+    font-weight: bold;
+    font-size: 110px;
+    color: #fff;
+    text-align: center;
+    line-height:500px;
+    height: 500px;
+}
+
+#typo .inner {
+    position: relative;
+    width: 976px;
+    height:500px;
+    margin: 0 auto;
+    left: 100px;
+}
+
+.go {
+    position: absolute;
+    top: 160px;
+    left: 250px;
+    background-color: #000;
+    border-radius: 30px;
+    color: #FFF;
+    cursor: pointer;
+    font-family: "Arial Black";
+    height: 120px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    line-height: 100px;
+    width: 300px;
+    text-decoration: none;
+
+}
+
+.next {
+    position: absolute;
+    background-color: #24d83d;
+    border-radius: 30px;
+    font-size: 60px;
+    color: #FFF;
+    cursor: pointer;
+    font-family: "Arial Black";
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    top: 200px;
+    left: 750px;
+    width: 200px;
+    text-decoration: none;
+
+}
+
+/***********フッター********/
+.page-footer {
+    background-color: #656565;
+}
+
+.page-footer p {
+    display: block;
+    color: #fff;
+    font-size: 25px;
+    text-align: right;
+    width: 976px;
+    margin: 0 auto;
+    height: 120px;
+    line-height: 120px;
+    letter-spacing: 0.15em;
+}
+
+
+
+
+/**********************************
+*************ゲーム画面*************
+**********************************/
+
+/***********フィールド********/
+.feild {
+    float: left;
+    background-color: aqua;
+    height: 650px;
+    width: 650px;
+}
+
+/***********パン********/
+.tani {
+    position: relative;
+}
+
+/***********ボタン********/
+.btn {
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+
+/***********スコア********/
+.score {
+    float: left;
+    background-color: #bde9ff;
+    position: relative;
+    height: 200px;
+    width: 250px;
+    left: 20px;
+    top: 100px;
+    right: 20px;
+    border: solid;
+}
+
+.moji p {
+    color: #2026f0;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+}
+
+.number p {
+    color: #f2311f;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+}
+
+/***********ボックス********/
+.box {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: solid;
+}
+
+#ok {
+    background-color: blue;
+    left: 680px;
+    top: 400px;
+}
+
+#ng {
+    background-color: red;
+    left: 980px;
+    top: 400px;
+}
+
+.afolder {
+    position: relative;
+    width: 200px;
+    height: 60px;
+}
+
+.bfolder {
+    position: relative;
+    width: 200px;
+    height: 60px;
+    top: 10px;
+}
+
+.cfolder {
+    position: relative;
+    width: 200px;
+    height: 60px;
+    top: 10px;
+}
+
+.pan {
+    float: left;
+}
+
+/***********終了の文字********/
+.done {
+    line-height: 200px;
+    color: #24d83d;
+    text-align: center;
+    font-size: 64px;
+    font-family: Arial Black;
+}
