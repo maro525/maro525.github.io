@@ -39,8 +39,21 @@ p {
     color: #333;
 }
 
-.posts li { 
+.posts {
+    margin: 50px auto;
+}
+
+.posts li {
     list-style: none;
+    padding: 5px 0;
+}
+
+.mini li{
+    font-size: 0.7em;
+}
+
+.label {
+    margin: 10px auto;
 }
 
 li {
